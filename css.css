@@ -1,0 +1,484 @@
+    /*******************************************************************************************/
+                                /* code css   */
+    /*******************************************************************************************/
+            
+
+             body{
+                   background-position:center bottom;
+                   margin: auto;
+                   background-color: silver;
+                 }
+    .blancsurnoir{ 
+                   background-color:black;
+                   color:white;
+                   text-align:left;
+                 }
+              .h1{
+                   padding: 100px;
+                   border: 100px;
+                   color:white;
+                 }
+              .br{
+                   text-align:center;
+                 }
+    @keyframes ca{
+                    0% {background-image:url(images/Ouaga.jpg) ;}
+                    50% {background-image:url(images/4.png); }
+                    100% {background-image:url(images/CA2.jpg) ;}
+                 } 
+            .div1{
+                    margin: auto;
+                    width: 1000 px;
+                    background-position:center;
+                    background-color: #088;
+                    padding: 20px ;
+                    border-style: outset;
+                    box-shadow: 5px 10px  ;
+                    animation: ca 20s infinite;
+                 }
+   @keyframes ca2{
+                    0% {background-image:url(images/E11.jpg) ;}
+                    50% {background-image:url(images/E200.jpg) ;}
+                    100% {background-image:url(images/E50.jpg) ;}
+                }                    
+           .div2{
+                    animation: ca2 20s infinite;
+                    background-position:center;
+                    background-color: #088;
+                    padding: 20px ;
+                    border-style: outset;
+                    box-shadow: 5px 10px grey ;
+                }
+  @keyframes ca3{
+                     0% {background-image:url(images/N10.jpg) ;}
+                     50% {background-image:url(images/C40.jfif) ;}
+                     80% {background-image:url(images/C50.jpg) ;}
+                     100% {background-image:url(images/C442.jfif) ;}
+                } 
+           .div3{
+                    animation: ca3 20s infinite;
+                    margin: auto;
+                    background-position:center;
+                    background-color: #088;
+                    padding: 20px ;
+                    border-style: outset;
+                    box-shadow: 5px 10px inset ;
+                }   
+              h1{ 
+            	   color:green;
+                   margin-right:60px;
+                   margin-left: 40px;
+                   text-align:center;
+                   font-family: verdana;
+                   font-style:;
+                   font-weight: bolder;
+                   box-shadow: 10px 15px  ;
+               }
+             h2{
+                   color:limegreen;
+                   font-weight: bolder;
+               }
+            img{
+                   box-shadow: 20px 20px 10px;
+               }
+               ruby
+               {
+                margin-left: -35px;
+               }
+               #rub
+               {
+                margin-left: -75px;
+               }
+               #rub1
+               {
+                margin-left: -35px;
+               }
+            #ma{
+                   width: 1200px;
+                   margin 1.5;
+                   text-align:center;
+                }
+   @keyframes bl{
+                   50% {background-color:white;}
+                   100% {background-color: gray ;}
+     }
+
+        .button1{
+                   animation: bl 10s infinite;
+                   background-position:; 
+                   text-align:center; 
+                   font-size:10pt;
+                   font-style:normal;
+                   background-color:;
+                   cursor: pointer;
+                   border-radius: 30px;
+               }          
+            #li{
+                   background-color: #fff;
+                   border: 2px solid black;
+                   border-radius: 8px;
+                   margin-left: 200px;
+                   margin-right: 200px;
+ 	               color:limegreen;
+                   text-align:center;
+                   font-style:oblique;
+                   font-weight: bolder;
+                   font-size: 19pt;
+                   text-decoration: underline;
+                   box-shadow: 10px 15px ;
+
+                } 
+            #li2{
+                font-size: 25px;
+                    text-align:center;
+                    font-weight: bolder;
+                }
+             .ss{
+                    list-style-type: square;
+                    font-style:normal;
+                    text-align: left;
+                    font-size: 15pt;
+                    font-weight: normal;
+                    margin:20px;
+                    cursor: pointer;
+                }
+             .ss{
+                    background-color: #fff;
+                    border: 4px solid orange;
+                    border-radius: 8px;
+                    margin-left: 100px;
+                    margin-right: 200px;
+                }
+            .ss2{
+                    margin-left: 100px;
+                    margin-right: 200px;
+                }
+           .tête{
+                    background-color: #fff;
+                    border: 7px solid orange;
+                    border-radius: 50px;
+                }
+	          #p{
+			        text-align:center;
+			        font-family:helvetica;
+			        font-style:oblique;
+		      	    font-size: 16pt;
+                    margin: 45px;
+		       } 
+             .n{
+                    color:green;
+                    text-align:center;
+                    font-style:oblique;
+                    font-size: 19pt;
+               }
+        .footer{
+                    text-align:right;
+               }
+             rt{
+                    font-weight: bolder;
+                    font-size:16px;
+                    color: coral;
+                    padding: 1px;
+                    font-weight: bolder;
+                }
+           .form{ 
+                     text-align:right;
+                     height: 48px;
+                }
+
+           #form{   
+                   
+                    font-weight: bold;
+                    margin-left: -20px;
+                    margin-right: 400px;
+                    margin-top: -400px;
+                    text-align:center;
+                    width: 570px;
+                    height: 610px;
+                    background-image:url(images/3.jpg);
+                    background-position:center;
+                    background-size: cover;
+                    box-shadow: 50px 30px 20px;
+                    border-radius: 800px;
+
+                }
+          #form1{ 
+                      font-weight: bold;
+                      margin-left: 850px;
+                      margin-right: 300px;
+                      text-align:center;
+                      width: 320px;
+                      height: 320px;
+                      margin-bottom: -200px;
+                      margin-top: -500px;
+                      background-image:url(images/3.jpg);
+                      background-position:center;
+                      background-size: cover;
+                      box-shadow: 50px 30px 20px;
+                      border-radius: 800px;
+                }
+               
+          #form2{     margin-bottom: -100px;
+                      font-weight: bold;
+                      margin-left: 550px;
+                      margin-right: 100px;
+                      width: 750px;
+                      height: 480px;
+                      margin-top: -580px;
+                      box-shadow: 50px 30px 20px 20px;
+                      border-radius: 8px;
+
+                }
+          #aside{
+                      background-color: #AAA;
+                      grid-area:barre;
+                      margin:45px;
+                      text-align:left;
+                      font-weight: bolder;
+                }
+@keyframes clignote{
+                        0%  {color: orange;}
+                        50% {color: green;}
+                        100% {color: black;}
+                    }
+              .body1{
+                        margin: 0;
+                        padding: 0;
+                        background-size: cover;
+                        font-family: sans-serif;
+                    }
+             marquee{
+                        animation:clignote 20s infinite;
+                    }
+
+              .inline{
+                        display: flex;
+                        text-align: center;
+                     }
+          .recherche2{
+                        border-radius: 30px;
+                        cursor: pointer;
+                     }
+           .recherche{
+                        border-radius: 30px;
+                        border: 3px  solid red;
+                     }                    
+                 .ins{
+                        margin-left: 230px;
+                        margin-right: 400px;
+                        border-style:inset ;
+                        float: center;
+                        text-align: center;
+                     }
+          .recherche3{ 
+                        margin-left: -450px;
+                        text-align: center;
+                        padding: 10px;
+                        border-radius: 30px;
+                        cursor: pointer;
+                     }
+               .input{
+                        height: 40px;
+                        border-radius: 50px;
+                        border:  5px  solid orange;
+                     }
+                 .tab{
+                        margin-left: 300px;
+                        margin-right: -400px;
+                     }
+                #navA{
+                       font-style:bolder;
+                       font: bolder;
+                       font-weight: bold;
+                       box-shadow: 10px 20px 30px 40px orange;
+                       width: 880px;
+                       height: 720px;
+                       background-image:url(images/Ra.jfif);
+                       background-position:center;
+                       background-size: cover;
+                     }
+                #navAM{
+                       font-style:bolder;
+                       font: bolder;
+                       font-weight: bold;
+                       box-shadow: 10px 20px 30px 40px black;
+                       margin-left: 500px;
+                       width: 450px;
+                       height: 360px;
+                       background-image:url(images/N21.jpg);
+                       background-position:center;
+                       background-size: cover;
+                     }
+
+                 /* CSS de la partie rechecher*/
+                .box{
+                       position: absolute;
+                       top: 20%;
+                       left: 25%;
+                       width: 500px;
+                       transform: translate(-50% ,-50%);
+                    }
+       body[id="de"]{
+                       background-image:url(images/R.jfif);
+                       background-position:center;
+                       background-size: cover;
+                    }
+                .h11{
+                       margin: 0 0 10px;
+                       padding: 0;
+                       color: #fff;
+                       font-size: 24px;
+                    }
+             .input1{
+                       position: relative;
+                       display: inline-block;
+                       font-size: 20px;
+                       box-sizing: border-box;
+                       transition: .5s;
+                    } 
+  input[name="rech"]{
+                       background: #fff;
+                       width: 338px;
+                       height: 50px;
+                       border:none ;
+                       outline: none;
+                       padding: 0px 25px;
+                       border-radius: 25px 0 0 25px;
+                    }
+
+   input[name="sub"]{
+                       box-shadow: 0px 7px green;
+                       position: relative;
+                       left: -5px;
+                       border-radius: 0 25px 25px 0;
+                       font-style: normal;
+                       font-size: 19pt;
+                       width: 150px;
+                       height: 48px;
+                       border: none;
+                       outline: none;
+                       cursor: pointer;
+                       background: #ffc107;
+                       color: #fff;
+                    }
+input[name="sub"]:hover{
+                          background: #ff5722;                                                                               }
+                       }
+                /* CSS de la partie modification*/
+
+                 .tête1{
+                          background-color: #fff;
+                          border: 7px solid orange;
+                          border-radius: 50px;       
+                       }
+         body[id="de1"]{
+                          background-image:url(images/R.jfif);
+                          background-position:center;
+                          background-size: cover;
+                       }
+                  .fiel{
+                         margin-left: 1px;
+                         margin-right: -2px;
+                         margin-top: 100px;
+                       }
+                 #navA1{
+                         font-style:bolder;
+                         font: bolder;
+                         font-weight: bold;
+                         box-shadow: 10px 20px 30px 40px;
+                         width: 410px;
+                         height: 395px;
+                         margin-left: 500px;
+                         background-image:url(images/Ouaga.jpg);
+                         background-position:center;
+                         background-size: cover;
+                         color: orange;
+                     }
+               #navA2{
+                         font-style:bolder;
+                         font: bolder;
+                         font-weight: bold;
+                         box-shadow: 10px 20px 30px 40px;
+                         width: 410px;
+                         height: 414px;
+                         margin-left: 500px;
+                         background-image:url(images/O1.jpg);
+                         background-position:center;
+                         background-size: cover;
+                         color: orange;
+
+                     }
+               #navA2id{
+                         font-style:bolder;
+                         font: bolder;
+                         font-weight: bold;
+                         box-shadow: 10px 20px 30px 40px;
+                         width: 399px;
+                         height: 334px;
+                         margin-left: 500px;
+                         background-image:url(images/C442.jfif);
+                         background-position:center;
+                         background-size: cover;
+                         color: white;
+
+                     }
+                     #navA3{
+                         font-style:bolder;
+                         font: bolder;
+                         font-weight: bold;
+                         box-shadow: 10px 20px 30px 40px;
+                         width: 410px;
+                         height: 397px;
+                         margin-left: 500px;
+                         background-image:url(images/bf1.jfif);
+                         background-position:center;
+                         background-size: cover;
+                         color: orange;
+                        
+                     }
+               #navA3ob{
+                         font-style:bolder;
+                         font: bolder;
+                         font-weight: bold;
+                         box-shadow: 10px 20px 30px 40px;
+                         width: 699px;
+                         height: 95px;
+                         margin-left: 300px;
+                         background-image:url(images/bf1.jfif);
+                         background-position:center;
+                         background-size: cover;
+                         color: white;
+                        
+                     }
+                .ins1{
+                       margin-top: 80px;
+                       float: center;
+                       text-align: center; 
+                       border-style:inset ;
+                     }
+              .tab1{
+                       margin-left: 10px;
+                       margin-right:10px
+                       margin-top: 200px;
+                       margin-bottom: 145px;
+                       margin:100px;
+                      
+                    }
+        .recherche4{ 
+                       margin-left: 1px;
+                       margin-top: 30px;
+                       text-align: center;
+                       padding: 10px;
+                       cursor: pointer;
+                    }
+      input[id="sa"]{
+                        border: 7px solid orange;
+                        border-radius:30px;  
+                    }
+               
+                  h4{
+                        text-align: center;
+                    }
+                 #dz{
+                        background-color: white;
+                    }
